@@ -21,7 +21,7 @@ public class MyController {
 
     @ExceptionHandler(IllegalArgumentException.class)
     public String onException() {
-        return "Wrong page number";
+        return "Wrong page number!";
     }
 }
 
